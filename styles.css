@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', 'Times New Roman';
+}
+
+body {
+    background-color: #023c6b;
+    color: white;
+}
+
+nav{
+    background-color: white;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav.header {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+a {
+    color: #023c6b;
+}
+
+a:hover {
+    color: #023c6b;
+    text-decoration: underline;
+}
+
+nav > span {
+    display: table-cell;
+    text-align: center;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.carousel-inner > .item > img {
+    filter: brightness(50%);
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+}
+
