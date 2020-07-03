@@ -48,17 +48,13 @@ nav > span {
     max-height: 100vh;
 }
 
-.box {
-    width: 800px;
-    height: 200px;
+.carousel-text {
+    width: 70vh;
+    height: 30vh;
     background-color: gold;
-    opacity: 90%;
-    margin: 100px;
-    color: black;
-
+    opacity: 80%;
+    margin:  auto;
+    color: rgb(24, 23, 23);
     display: table;
-    float: none;
-
-    text-align: center;
-    font-size: large;
 }
+
