@@ -53,14 +53,19 @@ nav > span {
     height: 30vh;
     background-color: gold;
     opacity: 80%;
-    margin:  auto;
+    margin: auto;
     color: rgb(24, 23, 23);
     display: table;
     padding: 10px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -100%);
+}
 }
 
-.carousel-text p {
-    display: table;
+.carousel-text p{
+    max-width: 65vh;
     margin: 0;
     position: absolute;
     top: 50%;
