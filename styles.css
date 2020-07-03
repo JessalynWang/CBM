@@ -56,5 +56,6 @@ nav > span {
     margin:  auto;
     color: rgb(24, 23, 23);
     display: table;
+    padding: 10px;
 }
 
