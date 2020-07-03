@@ -42,9 +42,19 @@ nav > span {
 }
 
 .carousel-inner > .item > img {
-    filter: brightness(50%);
+    filter: brightness(90%);
     width: 100%;
     height: 100vh;
     max-height: 100vh;
+}
+
+.carousel-text {
+    width: 70vh;
+    height: 30vh;
+    background-color: gold;
+    opacity: 80%;
+    margin:  auto;
+    color: rgb(24, 23, 23);
+    display: table;
 }
 
