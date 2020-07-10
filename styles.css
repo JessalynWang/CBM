@@ -7,70 +7,39 @@
 }
 
 body {
-    background-color: #023c6b;
-    color: white;
+    background-color: white;
+    color: #023c6b;
 }
 
-nav{
-    background-color: white;
-    padding: 15px;
+nav {
+    display: flex;
+    background-color: #023c6b;
     position: fixed;
     width: 100%;
     z-index: 999;
 }
 
-nav.header {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
+nav > span.navlogo {
+    padding: 1%;
+    flex: 3;
+    text-align: left; 
+    padding-left: 2%;
 }
 
-a {
-    color: #023c6b;
+nav > span > a {
+    color: #c39528;
+    transition: all 0.3s ease;
+    text-decoration: none;
 }
 
-a:hover {
-    color: #023c6b;
-    text-decoration: underline;
+nav > span:not(.navlogo):hover {
+    background-color: #354c74;
+    color: #c39528;
 }
 
 nav > span {
-    display: table-cell;
+    flex: 1;
     text-align: center;
     border: none;
-    transition: all 0.3s ease;
-}
-
-.carousel-inner > .item > img {
-    filter: brightness(90%);
-    width: 100%;
-    height: 100vh;
-    max-height: 100vh;
-}
-
-.carousel-text {
-    width: 70vh;
-    height: 30vh;
-    background-color: gold;
-    opacity: 80%;
-    margin: auto;
-    color: rgb(24, 23, 23);
-    display: table;
-    padding: 10px;
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -100%);
-}
-}
-
-.carousel-text p{
-    max-width: 65vh;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
 }
 
