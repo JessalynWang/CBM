@@ -21,25 +21,64 @@ nav {
 
 nav > span.navlogo {
     padding: 1%;
-    flex: 3;
+    flex: 6;
     text-align: left; 
     padding-left: 2%;
 }
 
 nav > span > a {
-    color: #c39528;
-    transition: all 0.3s ease;
+    color: white;
     text-decoration: none;
+}
+
+nav > span > a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 nav > span:not(.navlogo):hover {
     background-color: #354c74;
-    color: #c39528;
+    color: white;
 }
 
 nav > span {
+    padding: 1%;
     flex: 1;
     text-align: center;
     border: none;
+    transition: all 0.3s ease;
+}
+
+.bottomhalf {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #023c6b;
+    min-height: 40vh;
+    min-width: 100%;
+}
+
+.indexbox {
+    position: absolute;
+    height: 60vh;
+    min-width: 100%;
+    background-color: white;
+}
+
+.smallindex {
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 55%;
+    width: 60%;
+    background-color: #023c6b;
+}
+
+.fb1 {
+    color: white;
+    flex: 1;
+    text-align: center;
 }
 
