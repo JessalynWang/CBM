@@ -54,13 +54,13 @@ nav > span {
     left: 0;
     bottom: 0;
     background-color: #023c6b;
-    min-height: 40vh;
+    min-height: 35vh;
     min-width: 100%;
 }
 
 .indexbox {
     position: absolute;
-    height: 60vh;
+    height: 65vh;
     min-width: 100%;
     background-color: white;
 }
@@ -76,9 +76,39 @@ nav > span {
     background-color: #023c6b;
 }
 
+.iconBox {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 90%;
+    background-color: #023c6b;
+    color: white;
+}
+
+.decalthumb {
+    flex: 1;
+    text-align: center;
+}
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .fb1 {
     color: white;
     flex: 1;
     text-align: center;
+}
+
+@media only screen and (max-width: 596px) {
+    .fb1 > div > h5 {
+        font-size: 15px;
+    }
 }
 
