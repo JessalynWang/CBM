@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Noto Sans TC', 'Times New Roman';
+    -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
 }
 
 body {
@@ -54,7 +59,7 @@ nav > span {
     left: 0;
     bottom: 0;
     background-color: #023c6b;
-    min-height: 35vh;
+    height: 35vh;
     min-width: 100%;
 }
 
