@@ -117,3 +117,77 @@ nav > span {
     }
 }
 
+.contactus {
+    padding-top: 5%;
+    padding-bottom: 15px;
+    height: 65vh;
+}
+
+.hatguy {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 10%;
+    margin-top: 5%;
+}
+
+.hatguy > img {
+    opacity: 0.3;
+    filter: brightness(90%);
+    width: inherit;
+    height: inherit;
+}
+
+.contactbanner {
+    text-align: center;
+    width: auto;
+    min-height: 245px;
+    padding-top: 10%;
+}
+
+.contactinfo {
+    position: absolute;
+    float: left;
+    min-width:50%;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: fit-content;
+}
+
+.contactinfo > .contactext {
+    padding-left: 10%;
+}
+
+.socials {
+    text-align: left;
+    width: 50%;
+    height: fit-content;
+    padding-top: 15px;
+    padding-left: 10%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 50%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+    color: gold;
+}
+
+.fa-facebook {
+    background: #023c6b;
+    color: gold;
+}
+
+.fa-instagram {
+    background: #023c6b;
+    color: gold;
+}
