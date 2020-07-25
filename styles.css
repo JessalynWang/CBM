@@ -115,5 +115,9 @@ nav > span {
     .fb1 > div > h5 {
         font-size: 15px;
     }
+
+    .fb1 > div > p {
+        letter-spacing: normal;
+    }
 }
 
