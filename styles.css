@@ -204,7 +204,7 @@ nav > span {
     transition: all 0.3s ease;
 }
 
-.shadows:hover {
+.img-thumbnail:hover {
     box-shadow: 0 0 20px darkgoldenrod;
 }
 
@@ -212,11 +212,4 @@ nav > span {
     text-align: center;
     margin: 40px 0 40px 0;
     padding: 5% 5% 0 5%;
-}
-
-.prof-img {
-    position: absolute;
-    max-width: 100%;
-    width: 100px;
-    height: auto;
 }
