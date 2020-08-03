@@ -121,21 +121,23 @@ nav > span {
     padding-top: 5%;
     padding-bottom: 15px;
     height: 65vh;
+    text-align: center;
 }
 
-.hatguy {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    left: 10%;
-    margin-top: 5%;
-}
-
-.hatguy > img {
+.contactimage {
     opacity: 0.3;
     filter: brightness(90%);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-top: 3%;
+    left: 8%;
+}
+
+.contactimage > img {
     width: inherit;
     height: inherit;
+    object-fit: contain;
 }
 
 .contactbanner {
