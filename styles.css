@@ -213,3 +213,9 @@ nav > span {
     margin: 40px 0 40px 0;
     padding: 5% 5% 0 5%;
 }
+
+@media only screen and (max-width: 768px) {
+    .col-sm-4 {
+        width:100%;
+    }
+}
