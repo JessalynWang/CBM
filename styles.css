@@ -24,29 +24,35 @@ nav {
     z-index: 999;
 }
 
-nav > span.navlogo {
+nav > span {
     padding: 1%;
     flex: 6;
     text-align: left; 
     padding-left: 2%;
+    color: white;
 }
 
-nav > span > a {
+a.navlogo {
+    color: white;
+}
+
+a.navlogo:hover {
     color: white;
     text-decoration: none;
 }
 
-nav > span > a:hover {
+nav > a {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-nav > span:not(.navlogo):hover {
+nav > a:not(.navlogo):hover {
     background-color: darkgoldenrod;
     color: white;
+    text-decoration: none;
 }
 
-nav > span {
+nav > a:not(.navlogo) {
     padding: 1%;
     flex: 1;
     text-align: center;
