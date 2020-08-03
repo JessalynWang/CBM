@@ -42,7 +42,7 @@ nav > span > a:hover {
 }
 
 nav > span:not(.navlogo):hover {
-    background-color: #354c74;
+    background-color: darkgoldenrod;
     color: white;
 }
 
@@ -59,7 +59,7 @@ nav > span {
     left: 0;
     bottom: 0;
     background-color: #023c6b;
-    height: 35vh;
+    min-height: 35vh;
     min-width: 100%;
 }
 
@@ -79,6 +79,7 @@ nav > span {
     height: 55%;
     width: 60%;
     background-color: #023c6b;
+    color: white;
 }
 
 .iconBox {
@@ -112,6 +113,7 @@ nav > span {
 }
 
 @media only screen and (max-width: 596px) {
+
     .fb1 > div > h5 {
         font-size: 15px;
     }
@@ -119,6 +121,7 @@ nav > span {
     .fb1 > div > p {
         letter-spacing: normal;
     }
+
 }
 
 .contactus {
@@ -194,4 +197,26 @@ nav > span {
 .fa-instagram {
     background: #023c6b;
     color: gold;
+}
+
+.img-thumbnail {
+    border-color: darkgoldenrod;
+    transition: all 0.3s ease;
+}
+
+.shadows:hover {
+    box-shadow: 0 0 20px darkgoldenrod;
+}
+
+.profile {
+    text-align: center;
+    margin: 40px 0 40px 0;
+    padding: 5% 5% 0 5%;
+}
+
+.prof-img {
+    position: absolute;
+    max-width: 100%;
+    width: 100px;
+    height: auto;
 }
