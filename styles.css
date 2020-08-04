@@ -134,7 +134,13 @@ nav > a:not(.navlogo) {
     padding-top: 5%;
     padding-bottom: 15px;
     height: 65vh;
+    width: 100%;
     text-align: center;
+    background-image: url('images/QuestionBubble.jpg');
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    border: 5px solid red;
 }
 
 .contactimage {
@@ -160,25 +166,7 @@ nav > a:not(.navlogo) {
     padding-top: 10%;
 }
 
-.contactinfo {
-    position: absolute;
-    float: left;
-    min-width:50%;
-    background-color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    height: fit-content;
-}
-
 .contactinfo > .contactext {
-    padding-left: 10%;
-}
-
-.socials {
-    text-align: left;
-    width: 50%;
-    height: fit-content;
-    padding-top: 15px;
     padding-left: 10%;
 }
 
@@ -194,17 +182,14 @@ nav > a:not(.navlogo) {
 
 .fa:hover {
     opacity: 0.7;
-    color: gold;
+    color: #023c6b;
+    background-color: darkgoldenrod;
+    text-decoration: none;
 }
 
-.fa-facebook {
+.fa-facebook, .fa-instagram, .fa-envelope {
     background: #023c6b;
-    color: gold;
-}
-
-.fa-instagram {
-    background: #023c6b;
-    color: gold;
+    color: darkgoldenrod;
 }
 
 .img-thumbnail {
@@ -226,4 +211,16 @@ nav > a:not(.navlogo) {
     .col-sm-4 {
         width:100%;
     }
+}
+
+#cbmail {
+    color: darkgoldenrod;
+}
+
+.contactcont {
+    padding: 20% 30%;
+    min-height: 100vh;
+    min-width: 100vw;
+    text-align: center;
+
 }
