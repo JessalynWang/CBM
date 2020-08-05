@@ -16,7 +16,7 @@ body {
     color: #023c6b;
 }
 
-nav {
+nav.header {
     display: flex;
     background-color: #023c6b;
     position: fixed;
@@ -24,7 +24,7 @@ nav {
     z-index: 999;
 }
 
-nav > span {
+nav.header > span {
     padding: 1%;
     flex: 6;
     text-align: left; 
@@ -41,18 +41,18 @@ a.navlogo:hover {
     text-decoration: none;
 }
 
-nav > a {
+nav.header > a {
     color: white;
     text-decoration: none;
 }
 
-nav > a:not(.navlogo):hover {
+nav.header > a:not(.navlogo):hover {
     background-color: darkgoldenrod;
     color: white;
     text-decoration: none;
 }
 
-nav > a:not(.navlogo) {
+nav.header > a:not(.navlogo) {
     padding: 1%;
     flex: 1;
     text-align: center;
@@ -217,4 +217,35 @@ nav > a:not(.navlogo) {
     min-width: 100vw;
     text-align: center;
 
+}
+
+.resourcenav {
+    display: flex;
+}
+
+.resourcenav > a {
+    flex: 1;
+    padding: 10px;
+    color: #023c6b;
+    border-right: 1px solid darkgoldenrod;
+    border-left: 1px solid darkgoldenrod;
+    border-bottom: 2px solid darkgoldenrod;
+    border-top: 2px solid darkgoldenrod;
+}
+
+#ment {
+    border-left: 2px solid darkgoldenrod;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#exinfo {
+    border-right: 2px solid darkgoldenrod;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.resourcenav > a:hover {
+    text-decoration: none;
+    color: #b89b53;
 }
