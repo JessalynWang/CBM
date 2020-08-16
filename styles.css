@@ -62,17 +62,16 @@ nav.header > a:not(.navlogo) {
 
 .bottomhalf {
     position: absolute;
-    left: 0;
-    bottom: 0;
     background-color: #023c6b;
     min-width: 100%;
 }
 
 .indexbox {
-    position: absolute;
-    height: 65vh;
+    position: relative;
+    height: 100vh;
     min-width: 100%;
-    background-color: white;
+    background-image: url('images/Whoknowsdudev2-PixTeller.png');
+    background-position: center;
 }
 
 .smallindex {
@@ -89,19 +88,29 @@ nav.header > a:not(.navlogo) {
 
 .iconBox {
     display: flex;
-    position: absolute;
-    bottom: 0;
-    left: 0;
     background-color: #023c6b;
+    min-height: 100vh;
     width: 100%;
     color: white;
+    padding: 0;
+}
+
+@media only screen and (min-width: 890px) {
+    .welcometext {
+        font-size: 36px;
+    }
 }
 
 .decalthumb {
-    position: relative;
+    transition: all 0.5s ease;
     flex: 1;
     text-align: center;
     background-color: #023c6b;
+}
+
+.decalthumb:hover {
+    background-color: darkgoldenrod;
+    color: #023c6b;
 }
 
 .centered {
@@ -122,46 +131,6 @@ nav.header > a:not(.navlogo) {
     #fb1img {
         display: none;
     }
-}
-
-.contactus {
-    padding-top: 5%;
-    padding-bottom: 15px;
-    height: 65vh;
-    width: 100%;
-    text-align: center;
-    background-image: url('images/QuestionBubble.jpg');
-    background-position: center;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    border: 5px solid red;
-}
-
-.contactimage {
-    opacity: 0.3;
-    filter: brightness(90%);
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    margin-top: 3%;
-    left: 8%;
-}
-
-.contactimage > img {
-    width: inherit;
-    height: inherit;
-    object-fit: contain;
-}
-
-.contactbanner {
-    text-align: center;
-    width: auto;
-    min-height: 245px;
-    padding-top: 10%;
-}
-
-.contactinfo > .contactext {
-    padding-left: 10%;
 }
 
 .fa {
@@ -248,4 +217,13 @@ nav.header > a:not(.navlogo) {
 .resourcenav > a:hover {
     text-decoration: none;
     color: #b89b53;
+}
+
+.hiddenB {
+    transition: all 0.3s ease;
+    color: white;
+}
+
+.hiddenB:hover {
+    color: darkgoldenrod;
 }
