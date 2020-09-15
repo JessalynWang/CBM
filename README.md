@@ -1,2 +1,4 @@
-# CBM
-The website for the College Bound Mentorship program; we aim to help high school students connect with college students for advice on applications and resume building!
+# ML
+A repo for an implementation of the EEGNet paper found here: https://arxiv.org/abs/1611.08024
+
+The model has been adapted to work with EMG data
